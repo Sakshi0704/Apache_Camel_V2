@@ -90,12 +90,32 @@ kafka.topic.name=demo-topic
 kafka.bootstrap.servers=localhost:9092
 ```
 
-## ▶️ How to Run
 
-1. Make sure Kafka is running locally or on a configured server.
-2. Update the `application.properties` with your Kafka setup.
-3. Build and run the project:
+## 🚀 How to Run the Project
+
+### 1. Clone the Repository
+
 ```bash
-./mvnw clean install
+git clone https://github.com/your-username/ApacheCamelWithKafka.git
+cd ApacheCamelWithKafka
+```
+
+### 2. Start Kafka and Zookeeper via Docker Compose
+
+```bash
+docker-compose up -d
+```
+
+This will start:
+- Zookeeper on `localhost:2181`
+- Kafka on `localhost:9092`
+
+### 3. Run the Spring Boot Application
+
+```bash
 ./mvnw spring-boot:run
 ```
+
+Or run it from your IDE.
+
+---
