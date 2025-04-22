@@ -57,6 +57,12 @@ POST http://localhost:8080/api/send-direct?message=HelloKafka
 "Message sent directly to Kafka topic: <your-topic-name>"
 ```
 
+### `POST /api/send-with-route`
+
+### `POST /api/send-with-metadata`
+
+**Note**: Including "**fail**" you will find the consume retry process
+
 ## 🔄 Camel Route
 
 ### Kafka Consumer Route
