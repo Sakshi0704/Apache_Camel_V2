@@ -1,4 +1,4 @@
-# Kafka and Apache Camel Integration with Docker Compose
+## Apache Camel V2 - Kafka and Apache Camel Integration in Spring Boot with Docker Compose
 
 This project demonstrates a seamless integration between **Apache Camel**, **Kafka**, and **Spring Boot**, allowing message routing and transformation between REST APIs and Kafka topics. The application is built to showcase how you can produce and consume messages using Apache Camel routes and processors.
 
