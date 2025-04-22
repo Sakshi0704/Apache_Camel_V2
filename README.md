@@ -96,8 +96,8 @@ kafka.bootstrap.servers=localhost:9092
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ApacheCamelWithKafka.git
-cd ApacheCamelWithKafka
+git clone https://github.com/Sakshi0704/Apache_Camel_V2.git
+cd Apache_Camel_V2
 ```
 
 ### 2. Start Kafka and Zookeeper via Docker Compose
